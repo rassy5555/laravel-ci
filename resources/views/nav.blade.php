@@ -6,10 +6,9 @@
 
     @guest
     <li class="nav-item">
-      <a class="nav-link" href="{{ route('register') }}">ユーザー登録</a>
+      <a class="nav-link" href="{{ route('register') }}">ユーザっdー登録</a>
     </li>
     @endguest
-
     @guest
     <li class="nav-item">
       <a class="nav-link" href="{{ route('login') }}">ログイン</a>
